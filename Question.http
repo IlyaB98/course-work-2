@@ -1,0 +1,12 @@
+### Добавить в список вопрос
+GET http://localhost:8080/exam/java/add?question=QuestionText&answer=QuestionAnswer
+
+### Удалить вопрос из списка
+GET http://localhost:8080/exam/java/remove?question=QuestionText&answer=QuestionAnswer
+
+### Получить список всех вопросов
+GET http://localhost:8080/exam/java
+
+### Получить список из заданного количества вопросов
+GET http://localhost:8080/exam/get/1
+
